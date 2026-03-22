@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocolo YCARO.sys | Miguel Ycaro Sousa | Alquimista de Tech</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dynamic-bg"></div>
+    <div class="vignette"></div>
+
+    <header class="app-header">
+        <nav class="container">
+            <div class="brand">
+                <div class="logo-box">
+                    <i class="fas fa-terminal logo-icon"></i>
+                </div>
+                YCARO<span class="version">.sys [v1.0]</span>
+            </div>
+            <div class="nav-actions">
+                <a href="#sobre" class="nav-item">Core.data</a>
+                <a href="#habilidades" class="nav-item">Skill.tree</a>
+                <a href="#projetos" class="nav-item">Builds.log</a>
+                <a href="#contato" class="contact-trigger">Contact.init();</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-hub container">
+        <section id="hero" class="hero-terminal">
+            <div class="hero-graphics">
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Placa de circuito abstrata" class="abstract-circuit">
+                <img src="foto Ycaro.jpg" alt="Retrato de Miguel Ycaro" class="profile-portrait">
+            </div>
+            <div class="hero-info">
+                <p class="status-line">// STATUS: ONLINE_</p>
+                <h1>Miguel Ycaro <br> <span class="highlight">Sousa</span></h1>
+                <p class="role">ESTUDANTE_EEEP.LUCIA_BALTAZAR_COSTA <span class="slash">|</span> ENTUSIASTA.AUTOMAÇÃO.HARDWARE</p>
+                <div class="quick-tags">
+                    <div class="tag">
+                        <i class="fab fa-rust tag-icon"></i> Arduino
+                    </div>
+                    <div class="tag">
+                        <i class="fas fa-microchip tag-icon"></i> Hardware
+                    </div>
+                    <div class="tag">
+                        <i class="fas fa-network-wired tag-icon"></i> Redes
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="layered-about">
+            <div class="text-content">
+                <h2><span class="counter">01.</span> Sobre mim</h2>
+                <div class="content-box">
+                    <p>
+                        <i class="fas fa-angle-right console-prompt"></i> Meu nome é Miguel Ycaro Sousa, atualmente explorando o universo tecnológico na <strong>EEEP Lucia Baltazar Costa</strong>. Minha paixão é desvendar o funcionamento de sistemas, desde microcontroladores <strong>Arduino</strong> até a manutenção de hardware de alto desempenho.
+                    </p>
+                    <p>
+                        Eu não apenas utilizo a tecnologia; eu a manipulo para criar soluções eficientes. Minha motivação vem da Alquimia Tecnológica – transformar componentes brutos em ferramentas funcionais e inteligentes.
+                    </p>
+                </div>
+            </div>
+            <div class="visual-content">
+                <video autoplay loop muted class="tech-loop">
+                    <source src="https://assets.codepen.io/3/tech-circuit.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+            </div>
+        </section>
+
+        <section id="habilidades" class="skill-grid-container">
+            <h2><span class="counter">02.</span> Skill.tree();</h2>
+            <div class="skills-wrapper">
+                <div class="skill-group">
+                    <div class="skill-header">
+                        <i class="fab fa-rust tech-icon"></i>
+                        <h3>Arduino + Automação</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Microcontroladores (Uno, Nano, Mega)</li>
+                        <li>Integração de Sensores (Ultrassônico, PIR, Temp/Umid)</li>
+                        <li>Atuadores e Servomotores</li>
+                        <li>Lógica IOT Base</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-header">
+                        <i class="fas fa-tools tech-icon"></i>
+                        <h3>Hardware + Diagnóstico</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Manutenção de Computadores</li>
+                        <li>Montagem e Upgrade</li>
+                        <li>Testes de Componentes</li>
+                        <li>Otimização de BIOS</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-header">
+                        <i class="fas fa-network-wired tech-icon"></i>
+                        <h3>Redes + Servidores</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Noções de Redes TCP/IP</li>
+                        <li>Servidor de Arquivos (NAS) Local</li>
+                        <li>Protocolos de Comunicação (UART, SPI, I2C)</li>
+                        <li>Gerenciamento de Rede Doméstica</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="featured-builds">
+            <h2><span class="counter">03.</span> Builds.log // Destaques</h2>
+            <div class="builds-showcase">
+                <article class="build-card">
+                    <div class="build-meta">#PROJETO_01</div>
+                    <h3>Volante para Simulação</h3>
+                    <div class="build-details">
+                        <p>Desenvolvimento end-to-end de um periférico de entrada de alto desempenho.</p>
+                        <ul class="tech-stack">
+                            <li>Arduino</li>
+                            <li>Hardware-to-PC</li>
+                            <li>HID Protocol</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="view-project">Build.details <i class="fas fa-arrow-right"></i></a>
+                </article>
+                <article class="build-card">
+                    <div class="build-meta">#PROJETO_02</div>
+                    <h3>Servidor NAS Local</h3>
+                    <div class="build-details">
+                        <p>Infraestrutura de rede privada para armazenamento centralizado e backup automatizado.</p>
+                        <ul class="tech-stack">
+                            <li>Hardware Mod</li>
+                            <li>Rede Local</li>
+                            <li>Data Mgmt</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="view-project">Build.details <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contato" class="contact-protocol">
+            <h2><span class="counter">04.</span> Contact.init(); // Iniciar Comunicação</h2>
+            <div class="contact-wrapper">
+                <form action="#" class="cyber-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">#USER_NAME</label>
+                            <input type="text" id="name" required placeholder="Digite seu nome ou ID">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">#EMAIL_ADDR</label>
+                            <input type="email" id="email" required placeholder="ex: usuario@provider.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">#MESSAGE_PACKET</label>
+                        <textarea id="message" rows="6" required placeholder="Digite sua mensagem ou logs..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-packet">Transmit.data();</button>
+                </form>
+                <div class="contact-info">
+                    <div class="protocol-status">
+                        <h4>PROTOCOLO: OPEN_CHANNEL</h4>
+                        <p>Canal de comunicação está pronto para transmissão. Envie sua mensagem para iniciar.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-icon-box"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon-box"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon-box"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Miguel Ycaro Sousa. Todos os direitos reservados. Canal de transmissão: <span class="highlight">OPEN_</span></p>
+            <p>Criado com Alquimia Tecnológica e <i class="fas fa-code footer-code-icon"></i> no protocolo EEEP Lucia Baltazar Costa.</p>
+        </div>
+    </footer>
+</body>
+</html>
